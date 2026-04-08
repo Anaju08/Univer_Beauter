@@ -70,7 +70,7 @@ body::before{
 .photo-ring-inner img{width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:50%;}
 
 /* TITLES */
-.main-title{font-family:'Montserrat',sans-serif;font-size:clamp(10px,2.5vw,13px);font-weight:400;letter-spacing:6px;text-transform:uppercase;color:rgba(168,132,42,.6);margin-bottom:6px;}
+.main-title{font-family:'Montserrat',sans-serif;font-size:clamp(11px,2.7vw,14px);font-weight:400;letter-spacing:6px;text-transform:uppercase;color:rgba(168,132,42,.6);margin-bottom:6px;}
 
 .universo-title{
   font-family:'Cormorant Garamond',serif;
@@ -99,7 +99,7 @@ body::before{
 
 .header-desc{
   font-family:'Cormorant Garamond',serif;
-  font-size:clamp(18px,3.8vw,22px);
+  font-size:clamp(19px,4vw,24px);
   font-style:italic;color:rgba(210,195,155,.9);
   line-height:1.95;font-weight:400;
   max-width:430px;margin:0 auto;letter-spacing:.3px;
@@ -126,9 +126,9 @@ body::before{
 .link-card:hover .card-inner::after{left:120%;}
 .card-icon{width:46px;height:46px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:16px;background:rgba(168,132,42,.08);color:var(--ouro);border:1px solid var(--borda);}
 .card-text{flex:1;}
-.card-tag{font-size:8px;letter-spacing:3px;font-weight:600;text-transform:uppercase;color:rgba(168,132,42,.7);margin-bottom:3px;display:block;}
-.card-title{font-family:'Cinzel',serif;font-size:15px;font-weight:700;color:#F0EAD8;text-transform:uppercase;letter-spacing:1px;line-height:1.2;}
-.card-sub{font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(220,210,190,.65);margin-top:2px;display:block;}
+.card-tag{font-size:8.5px;letter-spacing:3px;font-weight:600;text-transform:uppercase;color:rgba(168,132,42,.7);margin-bottom:3px;display:block;}
+.card-title{font-family:'Cinzel',serif;font-size:16px;font-weight:700;color:#F0EAD8;text-transform:uppercase;letter-spacing:1px;line-height:1.2;}
+.card-sub{font-family:'Cormorant Garamond',serif;font-size:15px;font-style:italic;color:rgba(220,210,190,.65);margin-top:2px;display:block;}
 .card-arrow{font-size:20px;color:var(--ouro);opacity:.45;flex-shrink:0;transition:opacity .3s,transform .3s;}
 .link-card:hover .card-arrow{opacity:1;transform:translateX(4px);}
 
@@ -203,6 +203,7 @@ body::before{
 
 /* SOCIAL */
 .social-wrap{display:flex;align-items:center;justify-content:center;gap:36px;padding:8px 0 36px;}
+.social-wrap-header{display:flex;align-items:center;justify-content:center;gap:28px;padding:18px 0 8px;}
 .social-btn{display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:50%;border:1px solid var(--borda);background:var(--bg3);color:var(--ouro);text-decoration:none;transition:border-color .3s,background .3s,transform .3s,box-shadow .3s;}
 .social-btn:hover{border-color:var(--ouro);background:rgba(168,132,42,.07);transform:translateY(-4px) scale(1.08);box-shadow:0 8px 22px rgba(168,132,42,.12);}
 
@@ -267,6 +268,20 @@ body::before{
       <div class="orn-mid-line"></div>
       <span class="orn-mid-star">✦</span>
       <div class="orn-mid-line"></div>
+    </div>
+    <div class="social-wrap-header">
+      <a href="https://www.instagram.com/angelamoraesbeauter?igsh=MmUwMmdyc2d3N2Vi" target="_blank" rel="noopener" class="social-btn" title="Instagram">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+      <a href="https://www.tiktok.com/@angela.moraes27?_r=1&_t=ZS-95LEDn14dcr" target="_blank" rel="noopener" class="social-btn" title="TikTok">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.76a4.85 4.85 0 01-1.01-.07z"/>
+        </svg>
+      </a>
     </div>
     <p class="header-desc">
       Este é o espaço onde nascem as Beauter's.<br><br>
@@ -446,21 +461,6 @@ body::before{
       <div class="frase-div-line"></div><div class="frase-div-icon">✦</div><div class="frase-div-line"></div>
     </div>
     <p style="font-family:'Cinzel',serif;font-size:clamp(14px,3.2vw,19px);font-weight:700;color:#F0EAD8;line-height:1.7;text-transform:uppercase;letter-spacing:2px;">Está pronta para se tornar<br>uma Beauter?</p>
-  </div>
-
-  <div class="social-wrap reveal">
-    <a href="https://www.instagram.com/angelamoraesbeauter?igsh=MmUwMmdyc2d3N2Vi" target="_blank" rel="noopener" class="social-btn" title="Instagram">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-        <circle cx="12" cy="12" r="4"/>
-        <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
-      </svg>
-    </a>
-    <a href="https://www.tiktok.com/@angela.moraes27?_r=1&_t=ZS-95LEDn14dcr" target="_blank" rel="noopener" class="social-btn" title="TikTok">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.76a4.85 4.85 0 01-1.01-.07z"/>
-      </svg>
-    </a>
   </div>
 
   <div class="footer reveal">
